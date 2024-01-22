@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
+@section('title', 'POPOPOPOP')
+
 @section('content')
-    <h1>Index of Movies</h1>
-    <p>Index page</p>
+    <h1>f</h1>
 @endsection

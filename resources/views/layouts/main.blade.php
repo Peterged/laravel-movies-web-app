@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>@yield('title')</title>
     @vite('resources/css/app.css')
 </head>
 
@@ -36,15 +36,18 @@
                     </a>
                 </li>
                 <li class="ml-16">
-                    <a href="#" class="hover:text-gray-300"></a>
+                    <a href="#" class="hover:text-gray-300">Movies</a>
                 </li>
                 <li class="ml-16">
-                    <a href="#" class="hover:text-gray-300"></a>
+                    <a href="#" class="hover:text-gray-300">TV Shows</a>
                 </li>
                 <li class="ml-16">
-                    <a href="#" class="hover:text-gray-300"></a>
+                    <a href="#" class="hover:text-gray-300">Actors</a>
                 </li>
             </ul>
+            <div class="flex items-center">
+
+            </div>
         </div>
     </nav>
     @yield('content')
